@@ -41,7 +41,6 @@ public class Main {
 
         //Sets the move to te board
         board[move] = xOro;
-        printBoard(board);
 
         //changes to opposing player's turn
         return !isXsTurn;
